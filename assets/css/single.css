@@ -100,7 +100,16 @@ fieldset {
     border: 1px solid #884b4b;
     background-color: #f5bcbc;
 }
-
+.container-main{
+    width: 1000px;
+    margin: auto;
+}
+.titleNav {
+    width: 100%;
+    padding: 35px;
+    background: white;
+    margin-bottom: 30px;
+}
 html,body {
     width: 100%;
     padding: 0px;
