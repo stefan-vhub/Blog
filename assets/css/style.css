@@ -1,0 +1,432 @@
+/* ---- HEADER ---- */
+/* ---- HEADER ---- */
+/* ---- HEADER ---- */
+
+/* ---- HEADER LOGO ---- */
+
+#header .logo {
+    width: 100%;
+}
+
+#header .logo p {
+    text-align: center;
+    padding: 25px 0;
+    font-size: 70px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* ---- HEADER NAV ---- */
+
+#header .header-nav {
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding: 20px;
+    text-align:center;
+}
+
+#header .header-nav-ul li{
+    display: inline-block;
+    position: relative;
+}
+
+#header .header-nav-ul li .nav-a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 20px 15px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#header .header-nav li .nav-a:hover {
+    color: #1e73be;
+}
+#header .header-nav-ul li .fa-sort-desc {
+    position: relative;
+    bottom: 4px;
+
+}
+#header .dropdown {
+    position: absolute;
+    left: 0;
+    top: 44px;
+    background: black;
+    display: none;
+}
+
+#header .dropdown li{
+    display: block;
+    text-align: left;
+    padding: 10px 20px 10px 10px;
+}
+#header .dropdown li:hover{
+    background: #4f4f4f;
+}
+
+#header .dropdown .dropdown-a{
+    color: white;
+    padding: 10px 100px 10px 10px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+}
+
+#header .dropdown .dropdown-a:hover {
+    background: #4f4f4f;
+}
+
+#header li:hover  .dropdown{
+    display: block;
+}
+
+#header .header-nav-ul li .fa-search{
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    cursor: pointer;
+}
+#header .header-nav-ul li .fa-search:hover{
+    color: #1e73be;
+}
+
+.search-term {
+    position: absolute;
+    right: -77px;
+    bottom: -10px;
+    width: 0px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: #444;
+    line-height: 24px;
+    font-size: 19px;
+    font-family: 'Lore', serif;
+    transition: 0.5s;
+}
+
+#header .header-nav-ul li .fa-search:hover .search-term{
+    width: 500px;
+    padding: 6px 15px;
+    border: 1px solid #e0e0e0;
+}
+/* ---- // HEADER ---- */
+/* ---- // HEADER ---- */
+/* ---- // HEADER ---- */
+
+/* ---- MAIN ---- */
+/* ---- MAIN ---- */
+/* ---- MAIN ---- */
+
+#main,
+#single-main,
+#contact-main,
+#login-main{
+    width: 100%;
+    height: auto;
+    background: #ebeff4;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.left {
+    width: 50%;
+    float: left;
+    background: #ebeff4;
+}
+.right {
+    width: 50%;
+    float: right;
+    background: #ebeff4;
+}
+.left .CardPost {
+    width: 485px;
+    background: white;
+    float: left;
+    margin-bottom: 30px;
+}
+.right .CardPost {
+    width: 485px;
+    background: white;
+    float: right;
+    margin-bottom: 30px;
+}
+
+#main .post-main {
+    padding: 30px;
+}
+
+#main .post-main .description,
+#single-main .post-main .description {
+    padding: 20px 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+}
+.bodyPost {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.bodyPost p:first-child {
+    text-indent: 25px;
+}
+#main .post-main .dataName,
+#single-main .post-main .dataName{
+    color: #595959;
+    font-size: 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+}
+
+#main .post-main .description a{
+    color: #1e73be;
+}
+
+#main .post-main .topicIcs {
+    color: #595959;
+}
+#main .post-main .topicIcs i {
+    padding-right: 10px;
+}
+
+#main .nextPage {
+    background: white;
+    width: 100%;
+    padding: 35px;
+    font-size: 24px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+#main .nextPage a {
+    color: #1e73be;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-style: normal !important;
+}
+
+#main .nextPage a:hover {
+    color: black;
+}
+
+/* ---- // MAIN ---- */
+/* ---- // MAIN ---- */
+/* ---- // MAIN ---- */
+
+#footer {
+    width: 100%;
+    height: auto;
+    background: #272c30;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+#footer p {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+/* ----  SINGLE-MAIN ---- */
+/* ----  SINGLE-MAIN ---- */
+/* ----  SINGLE-MAIN ---- */
+
+#single-main .post {
+    width: 720px;
+    background: white;
+    float: left;
+}
+
+#single-main .post-main {
+    width: 100%;
+    padding: 30px;
+    height: auto;
+}
+
+#single-main .post-main .rights {
+    text-align: right;
+    color: #1e73be;
+    padding: 15px 0px;
+}
+
+#single-main .post-main .description {
+    text-align: justify;
+    padding: 0;
+}
+
+#single-main .post-footer-header{
+    width: 100%;
+    padding: 0px 30px 30px 30px;
+}
+
+#single-main .post-footer .similar-post {
+    float: left;
+    padding: 0px 7.5px;
+    width: 220px;
+}
+.similar-mame {
+    padding: 0px 7.5px;
+}
+#single-main .post-footer .similar-des-a {
+    color: #1e73be;
+    font-size: 12.5px;
+    width: 100%;
+    height: 31px;
+}
+
+#single-main .post-footer .similar-des a:hover {
+    color: black;
+}
+
+#single-main .post-footer .similar-des p {
+    color: #656565;
+    font-size: 14px;
+    padding: 1px 0px;
+}
+
+#single-main .post-footer footer {
+    border-top: 1px solid #ebeff4;
+    padding: 40px 30px;
+    font-size: 17px;
+}
+
+#single-main .post-footer footer a{
+    color: #1e73be;
+}
+
+#single-main .post-footer footer a:hover {
+    text-decoration: underline;
+}
+
+#single-main .more-things {
+    width: 280px;
+    float: left;
+    padding-left: 30px;
+}
+
+#single-main .more-things-cont {
+    padding-bottom: 30px;
+}
+
+#single-main .more-things form input{
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+#single-main .more-things-title {
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+#single-main .more-things .shereFa {
+    color: #656565;
+    font-size: 26px;
+    padding-left: 10px;
+}
+
+#single-main .more-things .shereFa:nth-child(2){
+    padding-left: 0px;
+}
+
+#single-main .more-things .shereFa:hover {
+    color: black;
+}
+
+#single-main .best-post a{
+    display: block;
+    color: #1e73be;
+    padding-bottom: 2px;
+}
+#single-main .best-post a:hover{
+    color: black;
+}
+#single-main .recent-comments .comments {
+    padding-bottom: 5px;
+}
+#single-main .recent-comments .comments:last-child {
+    padding-bottom: 0;
+}
+#single-main .recent-comments .comments a {
+    color: #1e73be;
+}
+#single-main .recent-comments .comments a:hover {
+    text-decoration: underline;
+}
+
+/* ---- // SINGLE-MAIN ---- */
+/* ---- // SINGLE-MAIN ---- */
+/* ---- // SINGLE-MAIN ---- */
+
+/* ----  CONTACT-MAIN ---- */
+/* ----  CONTACT-MAIN ---- */
+/* ----  CONTACT-MAIN ---- */
+
+#contact-main form {
+    padding: 40px;
+    background: white;
+    min-height: 610px;
+}
+
+#contact-main form .titleh2 {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+#contact-main form .div {
+    padding-bottom: 20px;
+}
+
+#contact-main form .div:last-child {
+    padding-bottom: 20px;
+}
+
+#contact-main form .div label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#contact-main form .div input[type="text"],
+#contact-main form .div input[type="password"],
+#contact-main form .div input[type="email"] {
+    padding: 12.5px 15px;
+    width: 460px;
+}
+
+#contact-main form .div textarea {
+    width: 100%;
+    height: 198px;
+    padding: 10px 15px;
+    resize: none;
+}
+
+#contact-main form .div input[type="submit"] {
+    padding: 10px 20px;
+    background: white;
+    border: 1px solid black;
+}
+
+/* ---- // CONTACT-MAIN ---- */
+/* ---- // CONTACT-MAIN ---- */
+/* ---- // CONTACT-MAIN ---- */
+
+/* ----  LOGIN-MAIN ---- */
+/* ----  LOGIN-MAIN ---- */
+/* ----  LOGIN-MAIN ---- */
+
+
+#login-main .signUp{
+    width: 25%;
+    margin: auto;
+    padding: 40px 0px;
+}
+
+/* ----  LOGIN-MAIN ---- */
+/* ----  LOGIN-MAIN ---- */
+/* ----  LOGIN-MAIN ---- */

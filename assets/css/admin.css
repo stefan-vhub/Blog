@@ -1,0 +1,165 @@
+/* ---- ADMIN HEADER ---- */
+/* ---- ADMIN HEADER ---- */
+/* ---- ADMIN HEADER ---- */
+
+#admin-header {
+    width: 100%;
+    background: #01474A;
+}
+
+#admin-header * {
+    color: white;
+}
+
+/* ---- HEADER LOGO ---- */
+
+
+#admin-header .logo {
+    float: left;
+}
+#admin-header .logo-text {
+    margin: 9px;
+    font-family: 'Candal', sans-serif;
+}
+#admin-header .logo-text span {
+    color: #BBCDC0;
+}
+
+/* ---- HEADER NAV ---- */
+
+#admin-header ul{
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#admin-header ul li a {
+    display: block;
+    padding: 21px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#admin-header ul li a:hover {
+    background-color: #7C8B86;
+    transition: 0.5s;
+}
+
+#admin-header ul li {
+    float: left;
+    position: relative;
+}
+
+#admin-header ul li ul {
+    position: absolute;
+    top: 63px;
+    right: 0px;
+    width: 180px;
+    display: none;
+    z-index: 88888;
+}
+
+#admin-header ul li:hover ul {
+    display: block;
+}
+#admin-header ul li ul li {
+    width: 100%;
+}
+#admin-header ul li ul li a {
+    padding: 10px;
+    background-color: white;
+    color: #444;
+}
+#admin-header ul li ul li a.logout {
+    color: red;
+}
+#admin-header ul li ul li a:hover {
+    background: #d5d6d6;
+}
+
+#admin-header .menu-toggle {
+    display: none;
+}
+
+/* ---- ADMIN MAIN ---- */
+/* ---- ADMIN MAIN ---- */
+/* ---- ADMIN MAIN ---- */
+
+#admin-main {
+    width: 100%;
+    height: calc(100% - 63px);
+}
+
+/* ---- ADMIN SLIDERBAR ---- */
+
+#admin-main .admin-slidebar{
+    width: 18%;
+    height: 100%;
+    background: #234a57;
+    float: left;
+}
+
+#admin-main .admin-slidebar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: aliceblue;
+}
+#admin-main .admin-slidebar ul li a {
+    padding: 18px;
+    display: block;
+    border-bottom: 1px solid #004044;
+}
+#admin-main .admin-slidebar ul li a:hover {
+    background-color: #004044;
+}  
+
+/* ---- ADMIN CONTENT ---- */
+
+#admin-main .admin-content {
+    width: 82%;
+    height: 100%;
+    float: left;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;
+    background: #f6f6f6;
+}
+
+#admin-main .admin-content .content {
+    width: 90%;
+    margin: 30px auto 30px;
+}
+
+#admin-main .admin-content .page-title {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #d3d3d3;
+}
+.edit {
+    color: green;
+}
+
+.delete {
+    color: red;
+}
+.publish {
+    color: blue;
+}
+.edit:hover,
+.delete:hover,
+.publish:hover {
+    text-decoration: underline;
+}
+
+

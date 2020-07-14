@@ -1,0 +1,110 @@
+/* Font Family */
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+/* font-family: 'Roboto Mono', monospace; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
+/*font-family: 'Roboto Mono', monospace;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Sahitya&display=swap');
+/* font-family: 'Sahitya', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Candal&display=swap');
+/* font-family: 'Candal', serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Candal', serif;
+    color: #444;
+    margin: 5px 0px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+fieldset {
+    padding: 20px;
+    margin-bottom: 20px
+}
+
+.clean {
+ clear: both;
+}
+
+.form-inputBox {
+    margin-bottom: 15px;
+}
+
+.text-input {
+    padding: 11px 15px;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+    outline: none;
+    color: #444;
+    line-height: 24px;
+    font-size: 19px;
+    font-family: 'Lore', serif;
+}
+
+.btn {
+    padding: 8px 16px;
+    background-color: #7C8B86;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 17px;
+    font-family: 'Lore', serif;
+    cursor: pointer;
+}
+
+.btn-big {
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+}
+
+.msg {
+    width: 100%;
+    margin: 5px auto;
+    padding: 8px;
+    border-radius: 5px;
+    list-style: none;
+}
+.success {
+    color: #3a6e3a;
+    border: 1px solid #3a6e3a;
+    background-color: #bcf5bc;
+}
+.error {
+    color: #3a6e3a;
+    border: 1px solid #3a6e3a;
+    background-color: #bcf5bc;
+    color: #884b4b;
+    border: 1px solid #884b4b;
+    background-color: #f5bcbc;
+}
+
+html,body {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+    /* font-family: 'Lora', serif; */
+}
